@@ -1,0 +1,773 @@
+{
+  "title": "The history of the CT scanner",
+  "tagline": "A century from a mathematician's formula to scanners that see inside you in seconds.",
+  "intro": "In 1917 a mathematician in Vienna showed how to rebuild a shape from its shadows, but nobody could do the sums. Fifty years later, a physicist in South Africa and an engineer at a British record and electronics company worked it out again, separately, and the engineer built a machine. The first patient was scanned in London in 1971. Since then CT has gone from nine days per picture to a whole body in seconds, and from counting light to counting single X-rays.",
+  "eras": [
+    {
+      "id": "theory",
+      "name": "Shadows and sums",
+      "from": 1895,
+      "to": 1966,
+      "color": "#c49bff",
+      "summary": "X-rays are found, a mathematician solves the problem in theory, and a few people build slice machines with film, toy trains and hand calculations."
+    },
+    {
+      "id": "emi",
+      "name": "The EMI scanner",
+      "from": 1967,
+      "to": 1979,
+      "color": "#ffb547",
+      "summary": "Godfrey Hounsfield builds the first CT scanner, the first patient is scanned, and CT spreads from London to the world, including India, ending with a Nobel Prize."
+    },
+    {
+      "id": "speed",
+      "name": "Faster and faster",
+      "from": 1977,
+      "to": 2004,
+      "color": "#ff7a59",
+      "summary": "Slip rings, spiral scanning and more and more detector rows cut scan times from minutes to a fraction of a second."
+    },
+    {
+      "id": "new",
+      "name": "Seeing more with less",
+      "from": 2005,
+      "to": 2026,
+      "color": "#8ef0ff",
+      "summary": "Two tubes, wide detectors, smarter reconstruction and photon counting freeze the heart, tell materials apart and lower the dose."
+    }
+  ],
+  "events": [
+    {
+      "year": 1895,
+      "date": "8 November 1895",
+      "era": "theory",
+      "art": "xray",
+      "key": true,
+      "title": "X-rays are discovered",
+      "who": "Wilhelm Röntgen",
+      "where": "Würzburg",
+      "country": "Germany",
+      "text": "Röntgen noticed a glowing screen across his lab while working with a cathode-ray tube, and found invisible rays that passed through card, wood and flesh but not bone. Within weeks doctors were taking X-ray pictures around the world. (How X-rays are made and stopped is the story of XRayClear.)",
+      "why": "Every CT scanner still starts with the same kind of ray, just measured far more carefully.",
+      "sources": [
+        27
+      ]
+    },
+    {
+      "year": 1917,
+      "date": "1917",
+      "era": "theory",
+      "art": "word",
+      "key": true,
+      "title": "The maths of shadows",
+      "who": "Johann Radon",
+      "where": "Vienna",
+      "country": "Austria",
+      "text": "Radon, a mathematician at the Technical University of Vienna, showed how a flat shape can be worked out exactly from all of its sums along straight lines, and gave the formula for doing it. Nobody had any use for it in medicine for another fifty years.",
+      "why": "This is the Radon transform: CT's projections are exactly these line sums, and reconstruction runs it backwards.",
+      "box": "recon",
+      "sources": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 1930,
+      "date": "1930–1931",
+      "era": "theory",
+      "art": "skeleton",
+      "title": "Slices on film",
+      "who": "Alessandro Vallebona; Bernard Ziedses des Plantes",
+      "where": "Genoa; Utrecht",
+      "country": "Italy and the Netherlands",
+      "text": "Vallebona built a machine that moved the X-ray tube and film in step, so only one layer of the body stayed sharp; he called it stratigraphy. A year later the Dutch radiologist Ziedses des Plantes described his own version, planigraphy. Several people in different countries claimed the idea around this time.",
+      "why": "Doctors could now pick out a single slice, but the other layers still smeared across the picture.",
+      "sources": [
+        22
+      ]
+    },
+    {
+      "year": 1956,
+      "date": "1956–1957",
+      "era": "theory",
+      "art": "person",
+      "title": "A physicist in a Cape Town hospital",
+      "who": "Allan Cormack",
+      "where": "Groote Schuur Hospital, Cape Town",
+      "country": "South Africa",
+      "text": "Working part-time as a hospital physicist, Cormack wondered how radiotherapy could be planned without knowing how X-rays were weakened inside each part of the body. He began working out how the inside could be calculated from measurements taken outside.",
+      "why": "It was the first time someone set out to compute a map of the body's attenuation.",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "year": 1961,
+      "date": "1961",
+      "era": "theory",
+      "art": "chip",
+      "title": "A toy train and a turntable",
+      "who": "William Oldendorf",
+      "where": "Los Angeles",
+      "country": "USA",
+      "text": "Oldendorf, a neurologist at UCLA, built a working model from his son's toy train, a record-player turntable and an alarm-clock motor. It picked out a nail hidden inside a ring of other nails, like something deep inside a skull. He was granted a US patent in 1963, but companies were not interested.",
+      "why": "It showed cross-sectional imaging could work, years before computers made it practical.",
+      "sources": [
+        20,
+        0
+      ]
+    },
+    {
+      "year": 1963,
+      "date": "1963 and 1964",
+      "era": "theory",
+      "art": "word",
+      "key": true,
+      "title": "Cormack publishes",
+      "who": "Allan Cormack",
+      "where": "Tufts University, Medford",
+      "country": "USA",
+      "text": "Now at Tufts, Cormack published two papers in the Journal of Applied Physics showing how to rebuild a slice from line measurements, and tested the idea with gamma rays on simple phantoms of aluminium and wood. The papers got almost no attention at the time.",
+      "why": "The theory of CT was complete before anyone built a scanner, even though Cormack did not know about Radon's work.",
+      "sources": [
+        2,
+        0
+      ]
+    },
+    {
+      "year": 1968,
+      "date": "1967–1968",
+      "era": "emi",
+      "art": "ctscanner",
+      "title": "Nine days for one picture",
+      "who": "Godfrey Hounsfield",
+      "where": "EMI Central Research Laboratories, Hayes",
+      "country": "United Kingdom",
+      "text": "Hounsfield, an engineer who had built one of Britain's first all-transistor computers, had the idea of scanning a body from many angles and letting a computer rebuild it. His lab prototype, with a gamma-ray source, took up to nine days to collect the data for one slice and over two hours of computing to rebuild it. He tested it on preserved brains, then on cattle brains.",
+      "why": "It proved that a computer could turn shadows into a slice with enough detail to tell grey matter from white.",
+      "box": "slices",
+      "sources": [
+        0,
+        15,
+        6
+      ]
+    },
+    {
+      "year": 1969,
+      "date": "c. 1968–1972",
+      "era": "emi",
+      "art": "scroll",
+      "title": "Who paid for it?",
+      "who": "EMI and the UK Department of Health",
+      "where": "London",
+      "country": "United Kingdom",
+      "text": "A popular story says Beatles record sales paid for the CT scanner. Historians doubt it: a 2012 study estimated that EMI spent about £100,000 on the project (not counting salaries), while the UK Department of Health and Social Security spent about £606,000 and agreed early to buy scanners. EMI's music profits may have helped the company afford research, but the exact link is disputed.",
+      "why": "It's a reminder that big medical inventions often rest on public money as well as private.",
+      "sources": [
+        7,
+        6
+      ]
+    },
+    {
+      "year": 1971,
+      "date": "1 October 1971",
+      "era": "emi",
+      "art": "ctscanner",
+      "key": true,
+      "title": "The first scan of a patient",
+      "who": "Godfrey Hounsfield and James Ambrose",
+      "where": "Atkinson Morley's Hospital, Wimbledon, London",
+      "country": "United Kingdom",
+      "text": "A woman with a suspected brain tumour became the first person scanned. The scan took about 30 minutes; the tapes were then carried across London for about two and a half hours of computing, and the picture was photographed off a screen. It showed a cyst-like mass about the size of a plum in her left frontal lobe.",
+      "why": "For the first time, doctors could see soft tissue inside a living skull without surgery or painful older tests.",
+      "box": "anatomy",
+      "sources": [
+        6,
+        1,
+        0
+      ]
+    },
+    {
+      "year": 1971,
+      "date": "September 1971",
+      "era": "emi",
+      "art": "chip",
+      "key": true,
+      "title": "A faster way to rebuild",
+      "who": "G. N. Ramachandran and A. V. Lakshminarayanan",
+      "where": "Indian Institute of Science, Bangalore",
+      "country": "India",
+      "text": "Working on 3D images from X-ray and electron-microscope pictures, the two scientists published a way to rebuild slices by convolution: sharpen each projection with a simple filter, then back-project. It was about 30 times faster than the Fourier method. Their filter is still called Ram-Lak.",
+      "why": "Filtered back-projection became the standard way CT images were made for decades.",
+      "box": "recon",
+      "sources": [
+        8,
+        9
+      ]
+    },
+    {
+      "year": 1972,
+      "date": "20 April 1972",
+      "era": "emi",
+      "art": "word",
+      "title": "The world hears about CT",
+      "who": "James Ambrose and Godfrey Hounsfield",
+      "where": "British Institute of Radiology congress, London",
+      "country": "United Kingdom",
+      "text": "Ambrose and Hounsfield gave the opening paper at the British Institute of Radiology's annual congress, showing brain scans made without contrast agents. The Times reported it the next day, and hospitals around the world began to ask for scanners.",
+      "why": "The announcement set off a race among manufacturers to build CT scanners.",
+      "sources": [
+        21
+      ]
+    },
+    {
+      "year": 1973,
+      "date": "June 1973",
+      "era": "emi",
+      "art": "building",
+      "title": "CT crosses the Atlantic",
+      "who": "Mayo Clinic; Massachusetts General Hospital",
+      "where": "Rochester, Minnesota; Boston",
+      "country": "USA",
+      "text": "The first EMI scanners in North America were installed at the Mayo Clinic, where the first scan was done on 19 June 1973, and at Massachusetts General Hospital a few weeks later. Each head scan still took minutes per slice.",
+      "why": "Within a few years, dozens of companies were making scanners.",
+      "sources": [
+        19,
+        0
+      ]
+    },
+    {
+      "year": 1974,
+      "date": "1974",
+      "era": "emi",
+      "art": "person",
+      "key": true,
+      "title": "The first whole-body scanner",
+      "who": "Robert Ledley",
+      "where": "Georgetown University, Washington DC",
+      "country": "USA",
+      "text": "Ledley's ACTA scanner could scan the whole body, not just the head, and no longer needed the water bag the EMI scanner used around the head. He was granted a patent for it in November 1975.",
+      "why": "CT moved from the brain to the chest, belly and bones.",
+      "sources": [
+        10,
+        0
+      ]
+    },
+    {
+      "year": 1974,
+      "date": "June 1974",
+      "era": "emi",
+      "art": "eye",
+      "title": "A pretend head for testing",
+      "who": "Larry Shepp and Benjamin Logan",
+      "where": "Bell Labs, New Jersey",
+      "country": "USA",
+      "text": "To compare ways of rebuilding images, Shepp and Logan invented a simple head made of ellipses, with a skull, ventricles and small tumours. The Shepp–Logan phantom is still the standard test image for CT maths.",
+      "why": "It gave everyone the same test, so methods could be compared fairly.",
+      "box": "recon",
+      "sources": [
+        11
+      ]
+    },
+    {
+      "year": 1975,
+      "date": "November 1975",
+      "era": "emi",
+      "art": "ctscanner",
+      "title": "Germany builds its own",
+      "who": "Siemens",
+      "where": "Erlangen",
+      "country": "Germany",
+      "text": "After tests at Frankfurt's university hospital from 1974, Siemens began series production of its SIRETOM head scanner in November 1975. In 1977 its SOMATOM body scanner took about four seconds per slice.",
+      "why": "Scan times fell from minutes to seconds in just a few years.",
+      "sources": [
+        15,
+        14
+      ]
+    },
+    {
+      "year": 1978,
+      "date": "1978",
+      "era": "emi",
+      "art": "building",
+      "key": true,
+      "title": "India's first CT scanner",
+      "who": "All India Institute of Medical Sciences",
+      "where": "New Delhi",
+      "country": "India",
+      "text": "According to the Indian Society of Neuroradiology, India's first CT scanner, an EMI 1010, was set up at AIIMS in 1978, and by the mid-1980s scanners were being installed across the country. Other hospitals also claim early scanners, so exact firsts are debated.",
+      "why": "CT soon replaced older, painful brain tests such as pneumoencephalography in India too.",
+      "sources": [
+        18
+      ]
+    },
+    {
+      "year": 1979,
+      "date": "October 1979",
+      "era": "emi",
+      "art": "trophy",
+      "key": true,
+      "title": "A Nobel Prize for two outsiders",
+      "who": "Allan Cormack and Godfrey Hounsfield",
+      "where": "Stockholm",
+      "country": "Sweden",
+      "text": "The Nobel Prize in Physiology or Medicine went to a physicist and an engineer for the development of computer-assisted tomography. Neither was a doctor, and Cormack had no PhD. Oldendorf, who had shared a major prize with Hounsfield in 1975, was left out.",
+      "why": "It recognised that the theory and the machine had been invented separately, on two continents.",
+      "sources": [
+        5,
+        2,
+        1,
+        20
+      ]
+    },
+    {
+      "year": 1987,
+      "date": "1987",
+      "era": "speed",
+      "art": "bolt",
+      "title": "Slip rings: spin without stopping",
+      "who": "Siemens and others",
+      "where": "Erlangen",
+      "country": "Germany",
+      "text": "Early gantries were connected by cables, so they had to stop and turn back after every slice. Slip rings pass power and data through sliding contacts, so the ring can spin continuously. Siemens' SOMATOM Plus turned once a second, then the fastest CT in the world.",
+      "why": "Continuous spinning made the next big idea, the spiral scan, possible.",
+      "box": "anatomy",
+      "sources": [
+        14
+      ]
+    },
+    {
+      "year": 1989,
+      "date": "November 1989",
+      "era": "speed",
+      "art": "atomspin",
+      "key": true,
+      "title": "The spiral scan",
+      "who": "Willi Kalender and colleagues",
+      "where": "Siemens, Erlangen",
+      "country": "Germany",
+      "text": "Kalender, Seissler and Vock showed the first clinical spiral CT at the RSNA meeting in Chicago: the table moved steadily while the tube spun, and software rebuilt slices at any position. A whole chest could be scanned in one breath-hold.",
+      "why": "Every modern CT scan is a spiral scan.",
+      "box": "slices",
+      "sources": [
+        12,
+        13
+      ]
+    },
+    {
+      "year": 1998,
+      "date": "1998",
+      "era": "speed",
+      "art": "ctscanner",
+      "title": "Four slices at once",
+      "who": "GE, Siemens, Toshiba and Philips",
+      "where": "Worldwide",
+      "country": "USA, Germany, Japan and the Netherlands",
+      "text": "The first multi-slice scanners had four rows of detectors and turned in half a second, collecting four slices per turn. That was about eight times the performance of one-second, single-slice scanning.",
+      "why": "More rows meant thinner slices, faster scans and the first good 3D pictures.",
+      "box": "slices",
+      "sources": [
+        25,
+        0
+      ]
+    },
+    {
+      "year": 2004,
+      "date": "2004",
+      "era": "speed",
+      "art": "ctscanner",
+      "title": "64 slices and the beating heart",
+      "who": "GE Healthcare and Siemens",
+      "where": "USA and Germany",
+      "country": "USA and Germany",
+      "text": "Announced at RSNA in 2003, the first 64-slice scanners were installed in 2004. With 64 rows of 0.625 mm detectors, a heart could be scanned in about 5 to 8 seconds, making CT pictures of the coronary arteries practical.",
+      "why": "CT angiography of the heart became a routine test.",
+      "sources": [
+        24,
+        0
+      ]
+    },
+    {
+      "year": 2005,
+      "date": "2005",
+      "era": "new",
+      "art": "atomspin",
+      "title": "Two tubes on one ring",
+      "who": "Siemens",
+      "where": "Forchheim",
+      "country": "Germany",
+      "text": "The SOMATOM Definition carried two X-ray tubes and two detectors on the same ring. At 0.33 s a turn, it could collect a slice of the heart in just 83 milliseconds, and the two tubes could run at different voltages for dual-energy scans.",
+      "why": "It froze the beating heart and made dual-energy CT practical.",
+      "box": "modern",
+      "sources": [
+        16,
+        0
+      ]
+    },
+    {
+      "year": 2007,
+      "date": "November 2007",
+      "era": "new",
+      "art": "ctscanner",
+      "title": "A whole organ in one turn",
+      "who": "Toshiba",
+      "where": "Otawara",
+      "country": "Japan",
+      "text": "Toshiba's Aquilion ONE had 320 rows of detectors covering 16 cm, enough to image a whole heart or brain in a single rotation without moving the table. It began shipping in 2008.",
+      "why": "Wide detectors let CT watch blood flow through a whole organ over time.",
+      "sources": [
+        23
+      ]
+    },
+    {
+      "year": 2008,
+      "date": "2008",
+      "era": "new",
+      "art": "chip",
+      "title": "Less dose, same picture",
+      "who": "GE Healthcare and others",
+      "where": "Worldwide",
+      "country": "USA",
+      "text": "Iterative reconstruction methods such as GE's ASiR replaced part of filtered back-projection with repeated guess-and-correct steps that model noise. Studies suggested similar image quality at about half the dose. Other makers followed, and today some use deep learning.",
+      "why": "Dose fell a long way while pictures stayed sharp.",
+      "box": "dose",
+      "sources": [
+        26
+      ]
+    },
+    {
+      "year": 2021,
+      "date": "30 September 2021",
+      "era": "new",
+      "art": "atomspin",
+      "key": true,
+      "title": "Counting every photon",
+      "who": "Siemens Healthineers",
+      "where": "Erlangen, Germany; cleared in the USA",
+      "country": "Germany",
+      "text": "The US FDA cleared the NAEOTOM Alpha, the first photon-counting CT scanner. Its cadmium telluride detectors turn each X-ray straight into an electrical pulse and sort it by energy, instead of adding up flashes of light.",
+      "why": "It is the biggest change to CT detectors since the 1970s.",
+      "box": "modern",
+      "sources": [
+        17,
+        0
+      ]
+    }
+  ],
+  "firsts": [
+    {
+      "label": "Mathematics of reconstruction",
+      "value": "1917",
+      "who": "Johann Radon, Austria"
+    },
+    {
+      "label": "CT scan of a patient",
+      "value": "1 Oct 1971",
+      "who": "Hounsfield and Ambrose, London, UK"
+    },
+    {
+      "label": "Convolution (Ram-Lak) filter",
+      "value": "1971",
+      "who": "Ramachandran and Lakshminarayanan, Bangalore, India"
+    },
+    {
+      "label": "Whole-body CT scanner",
+      "value": "1974",
+      "who": "Robert Ledley, USA"
+    },
+    {
+      "label": "CT scanner in India (widely cited)",
+      "value": "1978",
+      "who": "AIIMS, New Delhi"
+    },
+    {
+      "label": "Clinical spiral CT",
+      "value": "1989",
+      "who": "Willi Kalender and colleagues, Germany"
+    },
+    {
+      "label": "Dual-source CT",
+      "value": "2005",
+      "who": "Siemens, Germany"
+    },
+    {
+      "label": "Photon-counting CT cleared by the FDA",
+      "value": "2021",
+      "who": "Siemens Healthineers, Germany"
+    }
+  ],
+  "people": [
+    {
+      "name": "Johann Radon",
+      "life": "1887 – 1956",
+      "role": "Mathematician",
+      "from": "Austria-Hungary (now Czech Republic)",
+      "note": "Worked out in 1917 how to rebuild a shape from its line sums."
+    },
+    {
+      "name": "Allan Cormack",
+      "life": "1924 – 1998",
+      "role": "Physicist",
+      "from": "South Africa and USA",
+      "note": "Worked out CT's theory in Cape Town and at Tufts, and shared the 1979 Nobel Prize without having a PhD."
+    },
+    {
+      "name": "Godfrey Hounsfield",
+      "life": "1919 – 2004",
+      "role": "Electrical engineer",
+      "from": "England",
+      "note": "Built the first CT scanner at EMI; the Hounsfield unit is named after him."
+    },
+    {
+      "name": "James Ambrose",
+      "life": "1923 – 2006",
+      "role": "Neuroradiologist",
+      "from": "South Africa and England",
+      "note": "Scanned the first patient with Hounsfield in 1971 and showed doctors what CT could do."
+    },
+    {
+      "name": "G. N. Ramachandran",
+      "life": "1922 – 2001",
+      "role": "Biophysicist",
+      "from": "India",
+      "note": "With A. V. Lakshminarayanan, published the convolution back-projection method in 1971."
+    },
+    {
+      "name": "William Oldendorf",
+      "life": "1925 – 1992",
+      "role": "Neurologist",
+      "from": "USA",
+      "note": "Built an early cross-sectional imaging model in 1961 from household parts."
+    },
+    {
+      "name": "Robert Ledley",
+      "life": "1926 – 2012",
+      "role": "Dentist, physicist and computer pioneer",
+      "from": "USA",
+      "note": "Built ACTA, the first whole-body CT scanner, in 1974."
+    },
+    {
+      "name": "Willi Kalender",
+      "life": "1949 – 2024",
+      "role": "Medical physicist",
+      "from": "Germany",
+      "note": "Led the development of spiral CT, first shown in 1989."
+    }
+  ],
+  "series": [
+    {
+      "id": "speed",
+      "title": "How long a CT scanner took to collect one full set of views",
+      "unit": "seconds",
+      "log": true,
+      "after": "speed",
+      "caption": "From nine days on Hounsfield's lab prototype to a quarter of a second on today's fastest scanners.",
+      "points": [
+        {
+          "year": 1968,
+          "value": 777600,
+          "label": "Hounsfield's lab prototype: up to 9 days"
+        },
+        {
+          "year": 1971,
+          "value": 300,
+          "label": "EMI Mark I: 180 views in about 5 minutes"
+        },
+        {
+          "year": 1977,
+          "value": 4,
+          "label": "Siemens SOMATOM: about 4 s per slice"
+        },
+        {
+          "year": 1987,
+          "value": 1,
+          "label": "SOMATOM Plus: 1 s per turn, slip rings"
+        },
+        {
+          "year": 1998,
+          "value": 0.5,
+          "label": "First 4-slice scanners: 0.5 s per turn"
+        },
+        {
+          "year": 2005,
+          "value": 0.33,
+          "label": "First dual-source CT: 0.33 s per turn"
+        },
+        {
+          "year": 2021,
+          "value": 0.25,
+          "label": "NAEOTOM Alpha: 0.25 s per turn"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    "The first CT image of a patient took about 30 minutes to scan and two and a half hours to compute, and the data tapes were carried across London.",
+    "Allan Cormack won a Nobel Prize for medicine without a PhD, and neither he nor Hounsfield was a doctor.",
+    "William Oldendorf's 1961 imaging model used his son's toy train, a record-player turntable and an alarm-clock motor.",
+    "A 2012 study found the UK government spent about six times as much on developing the first CT scanner as EMI did, which casts doubt on the story that the Beatles paid for it.",
+    "The Ram-Lak filter, used in CT for decades, is named after two scientists working in Bangalore in 1971."
+  ],
+  "sources": [
+    {
+      "title": "History of computed tomography",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_computed_tomography"
+    },
+    {
+      "title": "Godfrey Hounsfield",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Godfrey_Hounsfield"
+    },
+    {
+      "title": "Allan MacLeod Cormack",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Allan_MacLeod_Cormack"
+    },
+    {
+      "title": "Johann Radon",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Johann_Radon"
+    },
+    {
+      "title": "Radon transform",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Radon_transform"
+    },
+    {
+      "title": "The Nobel Prize in Physiology or Medicine 1979",
+      "publisher": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/medicine/1979/summary/"
+    },
+    {
+      "title": "Fifty years ago, the first CT scan let doctors see inside a living skull",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/innovation/fifty-years-ago-the-first-ct-scan-let-doctors-see-inside-a-living-skull-180978792/"
+    },
+    {
+      "title": "Maizlin and Vos, Do we really need to thank the Beatles for the financing of the development of the CT scanner? (J Comput Assist Tomogr, 2012)",
+      "publisher": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22446352/"
+    },
+    {
+      "title": "Ramachandran and Lakshminarayanan, Three-dimensional reconstruction from radiographs and electron micrographs (PNAS 68, 1971)",
+      "publisher": "PNAS",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.68.9.2236"
+    },
+    {
+      "title": "G. N. Ramachandran",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/G._N._Ramachandran"
+    },
+    {
+      "title": "Robert Ledley",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Robert_Ledley"
+    },
+    {
+      "title": "Shepp and Logan, The Fourier reconstruction of a head section (IEEE Trans. Nucl. Sci., 1974)",
+      "publisher": "NASA ADS",
+      "url": "https://ui.adsabs.harvard.edu/abs/1974ITNS...21...21S/abstract"
+    },
+    {
+      "title": "Willi A. Kalender",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Willi_A._Kalender"
+    },
+    {
+      "title": "Kalender et al., Spiral volumetric CT with single-breath-hold technique (Radiology, 1990)",
+      "publisher": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2353088/"
+    },
+    {
+      "title": "A journey through the history of computed tomography, part two",
+      "publisher": "Siemens Healthineers",
+      "url": "https://www.siemens-healthineers.com/en-in/computed-tomography/news/mso-the-history-of-ct-2.html"
+    },
+    {
+      "title": "History of CT",
+      "publisher": "Siemens Healthineers MedMuseum",
+      "url": "https://www.medmuseum.siemens-healthineers.com/en/stories-from-the-museum/history-of-ct"
+    },
+    {
+      "title": "Back to the future: 10 years of Dual Source CT",
+      "publisher": "Siemens Healthineers",
+      "url": "https://www.siemens-healthineers.com/computed-tomography/news/mso-back-to-the-future.html"
+    },
+    {
+      "title": "FDA 510(k) clearance of Naeotom Alpha, the world's first photon-counting CT",
+      "publisher": "Siemens Healthineers",
+      "url": "https://www.siemens-healthineers.com/press/releases/naeotomfda"
+    },
+    {
+      "title": "History of neuroradiology in India",
+      "publisher": "Indian Society of Neuroradiology",
+      "url": "https://isnr.in/history-of-neuroradiology-in-india/"
+    },
+    {
+      "title": "Mayo Clinic contributions to medicine, 1973: first CAT scanner in North America",
+      "publisher": "Mayo Clinic",
+      "url": "https://history.mayoclinic.org/wp-content/uploads/2023/06/1973-2-1.pdf"
+    },
+    {
+      "title": "William H. Oldendorf",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/William_H._Oldendorf"
+    },
+    {
+      "title": "Medical physics in the 1970s",
+      "publisher": "British Institute of Radiology",
+      "url": "https://www.bir.org.uk/useful-information/history-of-radiology/1970s/1970s-medical-physics.aspx"
+    },
+    {
+      "title": "The history of tomography",
+      "publisher": "AOTMiT (Poland)",
+      "url": "https://www.aotm.gov.pl/en/scientific-achievements-and-medical-technologies/history-of-medical-technology/the-history-of-tomography/"
+    },
+    {
+      "title": "Toshiba manufactures milestone 1000th 320-row area detector CT, Aquilion ONE",
+      "publisher": "Canon Medical Systems",
+      "url": "https://global.medical.canon/News/PressRelease/Detail/4010-834"
+    },
+    {
+      "title": "Clinicians weigh 64-slice CT's revolutionary potential",
+      "publisher": "Diagnostic Imaging",
+      "url": "https://www.diagnosticimaging.com/view/clinicians-weigh-64-slice-cts-revolutionary-potential"
+    },
+    {
+      "title": "Klingenbeck-Regn et al., Subsecond multi-slice computed tomography: basics and applications (Eur J Radiol, 1999)",
+      "publisher": "ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0720048X99000868"
+    },
+    {
+      "title": "Iterative reconstruction in CT evolves for lower dose, increased clarity",
+      "publisher": "Diagnostic Imaging",
+      "url": "https://www.diagnosticimaging.com/view/iterative-reconstruction-ct-evolves-lower-dose-increased-clarity"
+    },
+    {
+      "title": "Wilhelm Röntgen",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen"
+    },
+    {
+      "title": "Mettler et al., Effective doses in radiology and diagnostic nuclear medicine: a catalog (Radiology, 2008)",
+      "publisher": "RSNA",
+      "url": "https://pubs.rsna.org/doi/abs/10.1148/radiol.2481071451"
+    },
+    {
+      "title": "Radiation dose in X-ray and CT exams",
+      "publisher": "RadiologyInfo.org (ACR and RSNA)",
+      "url": "https://www.radiologyinfo.org/en/info/safety-xray"
+    },
+    {
+      "title": "James Ambrose",
+      "publisher": "Radiopaedia",
+      "url": "https://radiopaedia.org/articles/james-ambrose"
+    },
+    {
+      "title": "CT scan",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/CT_scan"
+    }
+  ]
+}

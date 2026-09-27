@@ -1,0 +1,126 @@
+{
+  "slug": "ctscanclear",
+  "box": 19,
+  "question": "How does a CT scanner work?",
+  "url": "https://glassbox-production-fd52.up.railway.app/e/ctscanclear/",
+  "app": "https://glassbox-production-fd52.up.railway.app/ctscanclear/",
+  "assets": {
+    "reel": "reel.mp4",
+    "video": "video.mp4",
+    "cover": "cover.jpg",
+    "thumb": "thumb.jpg",
+    "still": "still.jpg",
+    "historyReel": "history-reel.mp4",
+    "historySlides": [
+      "history-slide-1.jpg",
+      "history-slide-2.jpg",
+      "history-slide-3.jpg",
+      "history-slide-4.jpg",
+      "history-slide-5.jpg",
+      "history-slide-6.jpg",
+      "history-slide-7.jpg",
+      "history-slide-8.jpg",
+      "history-slide-9.jpg",
+      "history-slide-10.jpg"
+    ],
+    "slides": [
+      "slide-1.jpg",
+      "slide-2.jpg",
+      "slide-3.jpg",
+      "slide-4.jpg",
+      "slide-5.jpg",
+      "slide-6.jpg",
+      "slide-7.jpg",
+      "slide-8.jpg",
+      "slide-9.jpg",
+      "slide-10.jpg"
+    ]
+  },
+  "captions": {
+    "history": {
+      "instagram": "A century from a mathematician's formula to scanners that see inside you in seconds.\n\n1895: X-rays are discovered\n1917: The maths of shadows\n1963: Cormack publishes\n1971: The first scan of a patient\n1971: A faster way to rebuild\n1974: The first whole-body scanner\n\nThe full story, with 25 moments, sources and charts: glassbox-production-fd52.up.railway.app/e/ctscanclear/history (link in bio)\n\nThen play with how it works: glassbox-production-fd52.up.railway.app/ctscanclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #ctscan #computedtomography #xrays #medicalimaging #hounsfield #backprojection #history",
+      "youtube": {
+        "title": "The history of the CT scanner in 45 seconds #shorts",
+        "description": "A century from a mathematician's formula to scanners that see inside you in seconds.\n\n1895 · X-rays are discovered (Wilhelm Röntgen)\n1917 · The maths of shadows (Johann Radon)\n1963 · Cormack publishes (Allan Cormack)\n1971 · The first scan of a patient (Godfrey Hounsfield and James Ambrose)\n1971 · A faster way to rebuild (G. N. Ramachandran and A. V. Lakshminarayanan)\n1974 · The first whole-body scanner (Robert Ledley)\n\n▶ Full history: https://glassbox-production-fd52.up.railway.app/e/ctscanclear/history/\n▶ Play with it: https://glassbox-production-fd52.up.railway.app/e/ctscanclear/\n\n#glassbox #howitworks #explained #history"
+      }
+    },
+    "instagram": "How does a CT scanner work?\n\nA CT scanner spins an X-ray tube around you three times a second, takes about a thousand shadows each turn, and a computer turns them into slices of your body. Take one apart in 3D, then rebuild a slice yourself with real maths.\n\n→ A CT scanner is a doughnut that spins an X-ray tube and a curved detector around you.\n→ Slip rings let the ring keep spinning, about three times every second.\n→ Each angle casts a shadow; stacked together they make a striped sinogram.\n→ In a helical scan the table glides through while the tube spins, tracing a spiral.\n→ Smear every shadow back across the picture and a blurry, streaky slice appears.\n\nPlay with it yourself. It's free and open source: glassbox-production-fd52.up.railway.app/ctscanclear (link in bio)\n\nBox No. 019 of 365. Follow @glassbox.how for a new \"how it works\" every day.\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #ctscan #computedtomography #xrays #medicalimaging #hounsfield #backprojection #threejs",
+    "carousel": "Swipe through: How does a CT scanner work?\n\nA CT scanner spins an X-ray tube around you three times a second, takes about a thousand shadows each turn, and a computer turns them into slices of your body. Take one apart in 3D, then rebuild a slice yourself with real maths.\n\nSave this for later, then play with the interactive version at glassbox-production-fd52.up.railway.app/ctscanclear (link in bio).\n\nBox No. 019 · @glassbox.how\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #ctscan #computedtomography #xrays #medicalimaging #hounsfield #backprojection",
+    "youtube": {
+      "title": "How does a CT scanner work? #shorts",
+      "description": "A CT scanner spins an X-ray tube around you three times a second, takes about a thousand shadows each turn, and a computer turns them into slices of your body. Take one apart in 3D, then rebuild a slice yourself with real maths.\n\n▶ Play with it: https://glassbox-production-fd52.up.railway.app/e/ctscanclear/\n⌘ Source code (MIT): https://github.com/bdeeps/ctscanclear\n\nBox No. 019 of 365 from Glassbox: one open-source interactive explainer every day.\n\n#glassbox #howitworks #explained"
+    },
+    "youtubeLong": {
+      "title": "How does a CT scanner work? (interactive explainer)",
+      "description": "A CT scanner spins an X-ray tube around you three times a second, takes about a thousand shadows each turn, and a computer turns them into slices of your body. Take one apart in 3D, then rebuild a slice yourself with real maths.\n\n▶ Play with the interactive version: https://glassbox-production-fd52.up.railway.app/e/ctscanclear/\n⌘ Source code (MIT): https://github.com/bdeeps/ctscanclear\n\nIn this video:\n• A spinning ring of X-rays. Inside the doughnut-shaped gantry, a heavy disc carries an X-ray tube and a curved detector with 64 or more rows of sensors.\n• Hundreds of shadows, one slice. Each detector measures how much X-ray got through along one line.\n• Rebuilding the picture. Smear every shadow back across the image and add them up: back-projection.\n• Every pixel is a number. CT measures attenuation and reports it in Hounsfield units: water is 0, air is −1000, fat about −100, bone +400 to over +1000.\n• Dose and speed. A head CT gives about 2 mSv, a chest CT about 7 and an abdomen and pelvis CT about 8 to 10, against about 2.4 mSv a year from nature and 0.02 to 0.1 for a chest X-ray.\n• Modern tricks. Dual-energy CT uses two X-ray energies to tell materials apart, like uric acid and calcium kidney stones.\n\nGlassbox opens one box a day: an interactive model of how something works, plus the code behind it.\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+    },
+    "short": "How does a CT scanner work?\n\nA CT scanner spins an X-ray tube around you three times a second, takes about a thousand shadows each turn, and a computer turns them into slices of your body.\n\nPlay with it: https://glassbox-production-fd52.up.railway.app/e/ctscanclear/",
+    "linkedin": "How does a CT scanner work?\n\nA CT scanner spins an X-ray tube around you three times a second, takes about a thousand shadows each turn, and a computer turns them into slices of your body. Take one apart in 3D, then rebuild a slice yourself with real maths.\n\n1. A spinning ring of X-rays\n2. Hundreds of shadows, one slice\n3. Rebuilding the picture\n4. Every pixel is a number\n5. Dose and speed\n6. Modern tricks\n\nI built an interactive, open-source explainer so you can pull the levers yourself. It's box No. 019 in my one-a-day project, Glassbox.\n\nTry it: https://glassbox-production-fd52.up.railway.app/e/ctscanclear/\nCode: https://github.com/bdeeps/ctscanclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+  },
+  "schedule": {
+    "at": "2026-09-27T13:00:00.000Z"
+  },
+  "targets": [
+    {
+      "service": "instagram",
+      "kind": "reel",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "carousel",
+      "offsetHours": 4,
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "short",
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "linkedin",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "twitter",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "threads",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "tiktok",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "history-reel",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "youtube",
+      "kind": "history-short",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "instagram",
+      "kind": "history-carousel",
+      "offsetHours": 6,
+      "enabled": false
+    }
+  ],
+  "thumbnailOffsetMs": 1200,
+  "updatedAt": "2026-09-27T09:22:10.537Z"
+}

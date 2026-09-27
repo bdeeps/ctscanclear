@@ -1,0 +1,103 @@
+{
+  "slug": "ctscanclear",
+  "box": 19,
+  "date": "2026-10-02",
+  "title": "CTScanClear",
+  "question": "How does a CT scanner work?",
+  "hook": "A CT scanner spins an X-ray tube around you three times a second, takes about a thousand shadows each turn, and a computer turns them into slices of your body. Take one apart in 3D, then rebuild a slice yourself with real maths.",
+  "thumbText": "HOW A CT SCAN WORKS",
+  "field": "body",
+  "minutes": 15,
+  "tags": [
+    "CT scan",
+    "computed tomography",
+    "X-rays",
+    "medical imaging",
+    "Hounsfield",
+    "back-projection",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "A spinning ring of X-rays",
+      "text": "Inside the doughnut-shaped gantry, a heavy disc carries an X-ray tube and a curved detector with 64 or more rows of sensors. Slip rings let it spin continuously, once every 0.25 to 0.5 seconds, while the table slides you through."
+    },
+    {
+      "title": "Hundreds of shadows, one slice",
+      "text": "Each detector measures how much X-ray got through along one line. One snapshot is a projection: a 1D shadow of the slice. About 1,000 projections per turn, stacked by angle, make a sinogram. In a helical scan the table moves as the tube spins, so the beam traces a spiral."
+    },
+    {
+      "title": "Rebuilding the picture",
+      "text": "Smear every shadow back across the image and add them up: back-projection. On its own it gives a blurry, streaky slice. Sharpen each shadow first with a ramp (Ram-Lak) filter and the true slice appears. The maths dates from Johann Radon in 1917."
+    },
+    {
+      "title": "Every pixel is a number",
+      "text": "CT measures attenuation and reports it in Hounsfield units: water is 0, air is −1000, fat about −100, bone +400 to over +1000. A window of level and width decides which numbers become grey, so the same scan can show brain, lung or bone."
+    },
+    {
+      "title": "Dose and speed",
+      "text": "A head CT gives about 2 mSv, a chest CT about 7 and an abdomen and pelvis CT about 8 to 10, against about 2.4 mSv a year from nature and 0.02 to 0.1 for a chest X-ray. Lower dose means more noise, so scanners modulate the tube current and use iterative reconstruction. A whole-body trauma scan takes seconds."
+    },
+    {
+      "title": "Modern tricks",
+      "text": "Dual-energy CT uses two X-ray energies to tell materials apart, like uric acid and calcium kidney stones. Cardiac CT times the scan to the ECG. Photon-counting CT, first cleared in 2021, counts every X-ray and measures its energy."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Gantry",
+      "def": "The doughnut-shaped part of a CT scanner that holds the spinning X-ray tube and detector."
+    },
+    {
+      "term": "Projection",
+      "def": "The shadow profile of a slice from one angle: how much X-ray each detector received."
+    },
+    {
+      "term": "Sinogram",
+      "def": "All the projections of a slice stacked by angle; each point in the body traces a sine-shaped line in it."
+    },
+    {
+      "term": "Pitch",
+      "def": "Table travel per rotation divided by the beam width. At pitch 1 the spiral's turns just touch."
+    },
+    {
+      "term": "Filtered back-projection",
+      "def": "Rebuilding a slice by sharpening each projection with a ramp filter and smearing it back across the image."
+    },
+    {
+      "term": "Hounsfield unit",
+      "def": "CT's scale of attenuation: HU = 1000 × (μ − μwater) ÷ μwater, so water is 0 and air is −1000."
+    },
+    {
+      "term": "Window level and width",
+      "def": "The range of Hounsfield units a viewer maps from black to white."
+    },
+    {
+      "term": "Millisievert",
+      "def": "A unit of radiation dose. The world average from natural sources is about 2.4 mSv a year."
+    },
+    {
+      "term": "Dual-energy CT",
+      "def": "Scanning at two X-ray energies to tell materials apart by how their attenuation changes with energy."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "ctscanclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}
